@@ -1,0 +1,12 @@
+Source: elmerfem-csc
+Section: science
+Priority: optional
+Maintainer: Juhani Kataja <juhmat@gmail.com>
+Build-Depends: cmake, build-essential, liblapack-dev, libblas-dev, libblas3, liboce-foundation-dev, liboce-modeling-dev, libvtk5-dev, libvtk5.10, libqwt-dev, libopenmpi-dev, openmpi-bin, libmumps-dev, libhypre-dev, libqt4-dev, libqtgui4, gfortran, gcc, g++, libqt4-opengl-dev, libvtk5-qt4-dev, libvtk5.10-qt4, libparmetis-dev, libmetis-dev
+Homepage: http://www.elmerfem.org
+
+Package: elmerfem-csc
+Architecture: any
+Depends: libmumps-4.10.0, libhypre-2.8.0b, liboce-foundation8 | liboce-foundation10, liboce-modeling8 | liboce-modeling10, libvtk5.10, libqwt6 | libqwt6abi1, openmpi-bin, libqt4-opengl, libvtk5.10-qt4, libblas3, libparmetis4.0, libmetis5
+Description: Elmer finite element modeling monolithic suite
+ Contains ElmerGUI
