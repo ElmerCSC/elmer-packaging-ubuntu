@@ -2,11 +2,11 @@ Source: elmerfem-csc-eg
 Section: science
 Priority: optional
 Maintainer: Elmer Administrator <elmeradm@csc.fi>
-Build-Depends: cmake, build-essential, liblapack-dev, libblas-dev, libblas3, libopenmpi-dev, openmpi-bin, libmumps-dev, libhypre-dev, gfortran, gcc, g++, libparmetis-dev, libmetis-dev
+Build-Depends: cmake, build-essential, liblapack-dev, libblas-dev, libblas3, libopenmpi-dev, openmpi-bin, libmumps-dev, libhypre-dev, gfortran, gcc, g++, libparmetis-dev, libmetis-dev, libopenblas-dev, liboce-modeling-dev, liboce-foundation-dev, qtscript5-dev, libqt5script5, libqt5widgets5, libqt5core5a, libqt5gui5, libqt5help5, libqt5opengl5, libqt5opengl5-dev, libvtk7-dev, libvtk7.1, libvtk7.1-qt, libvtk7-qt-dev, libqt5svg5-dev
 Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc-eg
 Architecture: any
-Depends: libmumps-5.3.1, libhypre, openmpi-bin, libblas3, liblapack3, libparmetis4.0.3, libmetis5, libgfortran, libopenblas-base, liboce-modeling11, liboce-foundation11, libqt5widgets5, libqt5script5, libqt5core5a, libqt5gui5, libqt5help5, libqt5opengl5, libvtk7.1, libvtk7.1-qt, libqt5svg5
+Depends: libmumps-5.3.1, libhypre, openmpi-bin, libblas3, liblapack3, libparmetis4.0.3, libmetis5, libgfortran, libopenblas-base, liboce-modeling11, liboce-foundation11, libqt5widgets5, libqt5script5, libqt5core5a, libqt5gui5, libqt5help5, libqtopengl5, libqtopengl5-dev, libvtk7.1, libvtk7.1-qt, libqt5svg5
 Description: Elmer finite element modeling monolithic suite, includes ElmerGUI
 Replaces: elmerfem-csc
