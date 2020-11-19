@@ -7,5 +7,5 @@ Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc
 Architecture: any
-Depends: libmumps-5.3.1, libhypre, openmpi-bin, libblas3, liblapack3, libparmetis4.0.3, libmetis5, libgfortran, libopenblas-base
+Depends: libmumps-5.3.1, libhypre, openmpi-bin, libblas3, liblapack3, libparmetis4.0, libmetis5, libgfortran5, libopenblas-base
 Description: Elmer finite element modeling monolithic suite, Does not contain ElmerGUI

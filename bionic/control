@@ -1,7 +1,7 @@
 Source: elmerfem-csc
 Section: science
 Priority: optional
-Maintainer: Juhani Kataja <juhmat@gmail.com>
+Maintainer: Elmer Administrator <elmeradm@csc.fi>
 Build-Depends: cmake, build-essential, liblapack-dev, libblas-dev, libblas3, libopenmpi-dev, openmpi-bin, libmumps-dev, libhypre-dev, gfortran, gcc, g++, libparmetis-dev, libmetis-dev
 Homepage: http://www.elmerfem.org
 
