@@ -2,11 +2,11 @@ Source: elmerfem-csc-eg
 Section: science
 Priority: optional
 Maintainer: Elmer Administrator <elmeradm@csc.fi>
-Build-Depends: cmake, gcc, g++, gfortran, cmake, build-essential, libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libparmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, liboce-modeling11, libvtk7.1p, libvtk7.1p-qt, libvtk7-qt-dev7.1
+Build-Depends: cmake, gcc, g++, gfortran, cmake, build-essential, libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libparmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, liboce-modeling11, libvtk7.1p, libvtk7.1p-qt
 Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc-eg
 Architecture: any
-Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libparmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, liboce-modeling11, libvtk7.1p, libvtk7.1p-qt, libvtk7-qt-dev7.1
+Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libparmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, liboce-modeling11, libvtk7.1p, libvtk7.1p-qt
 Description: Elmer finite element modeling monolithic suite, includes ElmerGUI
 Replaces: elmerfem-csc
