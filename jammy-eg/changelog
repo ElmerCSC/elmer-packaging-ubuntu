@@ -1,6 +1,7 @@
 elmerfem-csc (9.0-0ppa0) jammy; urgency=low
+
   * Set version to 9.0
   * Full release notes at https://github.com/ElmerCSC/elmerfem/blob/release-9.0/ReleaseNotes/release_9.0.md
 
--- <elmeradm@csc.fi> 6.4.2023
+ -- <elmeradm@csc.fi> Thu  6 Apr 17:03:08 EEST 2023
 
