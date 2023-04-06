@@ -1,5 +1,9 @@
-elmerfem-csc (8.4-0ppa0) bionic; urgency=low
-  
+elmerfem-csc-eg (9.0-0ppa0) bionic; urgency=low
+  * Increase version to 9.0
+  * Full release notes at https://github.com/ElmerCSC/elmerfem/blob/release-9.0/ReleaseNotes/release_9.0.md
+
+-- <elmeradm@csc.fi> 6.4.2023
+
   * Increase version to 8.4
   * Release announcement at http://www.elmerfem.org/forum/viewtopic.php?f=11&t=6310
   * Full release notes at https://github.com/ElmerCSC/elmerfem/blob/release-8.4/ReleaseNotes/release_8.4.txt
