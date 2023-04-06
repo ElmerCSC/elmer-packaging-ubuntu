@@ -24,13 +24,11 @@ ElmerGUI - the new graphical user interface of Elmer based on QT
 ElmerGUIlogger - launcher for ElmerGUI based on QT
 eio - elmer I/O library used by ElmerSolver for some tasks
 elmergrid - simple mesh creation and manipulation utility
-elmerparam - optimization wrapper
 fem - elmersolver, the computational kernel
-front - ElmerFront, the old graphical user interface
-hutiter - iterative linear algebra 
+fhutiter - iterative linear algebra 
 matc - library for on-the-line arithmetics  
 meshgen2d - 2d Delaunay mesh generation 
-post - ElmerPost, the visualization program of Elmer 
+post - ElmerPost, the obsolite visualization program of Elmer 
 misc - miscallenous stuff
 
 The following exception applied to ElmerGUI module:
