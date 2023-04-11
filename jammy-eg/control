@@ -7,6 +7,6 @@ Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc-eg
 Architecture: any
-Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, libvtk7.1p, libvtk7.1p-qt  libocct-foundation-7.5, libocct-modeling-algorithms-7.5, libocct-modeling-data-7.5
+Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, libvtk7.1p, libvtk7.1p-qt, libocct-foundation-7.5, libocct-modeling-algorithms-7.5, libocct-modeling-data-7.5
 Description: Elmer FEM suite with ElmerGUI
 Replaces: elmerfem-csc
