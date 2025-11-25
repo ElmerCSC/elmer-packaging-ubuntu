@@ -7,5 +7,5 @@ Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc
 Architecture: any
-Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-2.22.1
+Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-2.28.0
 Description: Elmer FEM suite without ElmerGUI 
