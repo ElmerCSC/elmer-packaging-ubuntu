@@ -2,10 +2,11 @@ Source: elmerfem-csc
 Section: science
 Priority: optional
 Maintainer: Elmer Administrator <elmeradm@csc.fi>
-Build-Depends: cmake, gcc, g++, gfortran, build-essential, libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-dev
+Build-Depends: cmake, gcc-13, g++-13, gfortran, gfortran-13, libblas-dev, liblapack-dev, mpi-default-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-dev
+Standards-Version: 4.0.0
 Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc
 Architecture: any
-Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-2.28.0
+Depends: libblas3, liblapack3, gfortran, gfortran-13, gcc-13, g++-13, mpi-default-bin, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-2.28.0
 Description: Elmer FEM suite without ElmerGUI 
