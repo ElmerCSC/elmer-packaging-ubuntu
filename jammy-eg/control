@@ -2,11 +2,12 @@ Source: elmerfem-csc-eg
 Section: science
 Priority: optional
 Maintainer: Elmer Administrator <elmeradm@csc.fi>
-Build-Depends: cmake, gcc, g++, gfortran, build-essential, libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-dev, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, libvtk7.1p, libvtk7.1p-qt, libocct-foundation-7.5, libocct-modeling-algorithms-7.5, libocct-modeling-data-7.5
+Build-Depends: cmake, g++-11, gcc-11, gfortran, gfortran-11, libblas-dev, libhypre-dev, liblapack-dev, libmetis-dev, libmumps-dev, libocct-data-exchange-dev, libocct-draw-dev, libocct-foundation-dev, libocct-modeling-algorithms-dev, libocct-modeling-data-dev, libocct-ocaf-dev, libocct-visualization-dev, libparmetis-dev, libqt5opengl5-dev, libqt5svg5-dev, libqwt-qt5-dev, libtbb-dev, libvtk7-dev, libvtk7-qt-dev, libvtk7.1p, libvtk7.1p-qt, lua5.3, mpi-default-dev, occt-misc, qtscript5-dev
+Standards-Version: 4.0.0
 Homepage: http://www.elmerfem.org
 
 Package: elmerfem-csc-eg
 Architecture: any
-Depends: libblas-dev, liblapack-dev, libopenmpi-dev, libmpich-dev, lua5.3, libmumps-dev, libparmetis-dev, libmetis-dev, libhypre-2.22.1, libqt5opengl5-dev, qtscript5-dev, libqt5svg5-dev, qtscript5-dev, libqwt-qt5-dev, libqwt-qt5-dev, libqt5svg5-dev, libvtk7.1p, libvtk7.1p-qt, libocct-foundation-7.5, libocct-modeling-algorithms-7.5, libocct-modeling-data-7.5
+Depends: g++, g++-11, gcc, gcc-11, gfortran, gfortran-11, libblas3, libhypre-2.22.1, liblapack3, libmetis5, libmumps-5.4, libocct-data-exchange-7.5, libocct-draw-7.5, libocct-foundation-7.5, libocct-modeling-algorithms-7.5, libocct-modeling-data-7.5, libocct-ocaf-7.5, libocct-visualization-7.5, libparmetis4.0, libqt5opengl5-dev, libqt5svg5-dev, libqwt-qt5-dev, libvtk7.1p, libvtk7.1p-qt, lua5.3, mpi-default-bin, occt-misc, qtscript5-dev
 Description: Elmer FEM suite with ElmerGUI
 Replaces: elmerfem-csc
