@@ -7,6 +7,7 @@ SET(HYPRE_INCLUDE_DIR "/usr/include/hypre" CACHE PATH "")
 SET(HYPREROOT "/usr" CACHE PATH "")
 SET(WITH_ElmerIce TRUE CACHE BOOL "")
 SET(ELMER_SOLVER_HOME "/usr/share/elmersolver" CACHE PATH "")
+SET(WITH_OpenMP TRUE CACHE BOOL "")
 
 # ElmerGUI related.
 SET(WITH_ELMERGUI TRUE CACHE BOOL "")
